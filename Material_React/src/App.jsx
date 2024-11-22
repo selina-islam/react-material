@@ -8,6 +8,7 @@ import Vedio from './Components/Vedio';
 import WorkPage from './Components/Time';
 import BombArea from './Components/BombArea';
 import Blog from './Components/Blog';
+import Footer from './Components/Footer';
 function App() {
 
   return (
@@ -19,7 +20,8 @@ function App() {
       <Vedio />
       <WorkPage />
       <BombArea />
-      <Blog/>
+      <Blog />
+      <Footer/>
     </>
   )
 }
